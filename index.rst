@@ -9,7 +9,7 @@ Welcome to Volumio's documentation!
 Features
 --------
 
-- Awesome
+- Awesome!
 - Ready to play: flash it and you're ready 
 - Audiophile Quality: bit perfect playback
 - FLAC, WAV, MP3, AAC, ALAC, PLS support
