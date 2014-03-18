@@ -18,5 +18,24 @@ Volumio (from 1.3beta) uses MPD 18.9
 Start 
 -----
 
-  see if works
-  see if worksa
+First, we make sure to satisfy MPD's dependencies. We'll be using jessie's packages, since wheezy's one are outdated.
+
+We do that by editing ``/etc/apt/sources.list`` and adding jessie's repos.
+
+  ``sudo nano /etc/apt/sources.list``
+  
+Our file will look like this:
+  
+  ``deb http://http.debian.net/debian jessie main non-free
+  deb-src http://http.debian.net/debian jessie main non-free`` 
+
+
+Save with ``ctrl+x`` and then update the apt cache
+
+  ``sudo apt-get update``
+
+
+Now we can actually install MPD's dependencies
+
+
+  ``sudo apt-get build-dep mpd``
