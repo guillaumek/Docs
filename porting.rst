@@ -56,9 +56,15 @@ cd /
 tar xvf vol    -C /mnt/1
 
 
+
+
 cd /mnt/1
 
 Now copy modules, kernel and /udev rules if any and you're ready
+
+
+cd /
+umount /dev/sda2
 
 
 
